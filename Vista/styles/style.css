@@ -1,0 +1,98 @@
+/* https://coolors.co/232121-fdf6f6-534a47-ea3d22 */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+  --main-color: #A33939;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.btn-accessibility {
+  width: fit-content;
+}
+
+.f0 {
+  font-size: 0.8rem;
+}
+
+.f1 {
+  font-size: 0.9rem;
+}
+
+.f2 {
+  font-size: 1rem;
+}
+
+.f3 {
+  font-size: 1.1rem;
+}
+
+.f4 {
+  font-size: 1.2rem;
+}
+
+.f5 {
+  font-size: 1.3rem;
+}
+
+.f6 {
+  font-size: 1.4rem;
+}
+
+.f7 {
+  font-size: 1.5rem;
+}
+
+input:invalid {
+  border: 1px dashed red !important;
+}
+
+.bg-ownDark {
+  background-color: #232121;
+}
+
+.text-bg-primary {
+  background-color: var(--main-color) !important;
+}
+
+.book-cover,
+.card-img-top {
+  aspect-ratio: 3/5;
+  object-fit: cover;
+}
+
+.breadcrumb-item>a {
+  color: var(--main-color) !important;
+  text-decoration: none;
+}
+
+.btn-outline-primary {
+  color: var(--main-color);
+  --bs-btn-color: var(--main-color);
+  --bs-btn-border-color: var(--main-color);
+}
+
+.btn-check:checked+.btn {
+  border-color: var(--main-color);
+  background-color: var(--main-color);
+  color: white;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--main-color);
+  --bs-btn-border-color: var(--main-color);
+  --bs-btn-hover-bg: #6c757d;
+  --bs-btn-hover-border-color: black;
+
+}

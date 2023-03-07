@@ -1,0 +1,22 @@
+
+
+
+
+# Turn on the rewrite functionnality
+RewriteEngine On
+
+# Want to find a way to delete or rewrite the 'DAW02-EBOOK-STORE/'
+# RewriteRule ^.*[/DAW02-EBOOK-STORE/].*$ / [QSA,NC]
+
+# Debug
+# RewriteRule ^[^\.]*$ test.php [NC,L]
+
+# RewriteRule ^.*$ index.php [NC,L]
+# RewriteRule ^.*.html$|^.*.php$|^[^\.]*$ index.php [NC,L]
+
+# Redirect all incoming traffic not related to files to the index.php file
+# It checks if the request contains a '.' or not.
+RewriteRule ^[^\.]*$ index.php [NC,L]
+
+
+
